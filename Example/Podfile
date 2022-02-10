@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RxNMapsMap_Example' do
+  pod 'RxNMapsMap', :path => '../'
+
+  target 'RxNMapsMap_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
