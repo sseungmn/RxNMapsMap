@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/sseungmn/RxNMapsMap.git', :tag => s.version.to_s }
 
   s.swift_version    = '5.5.0'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'RxNMapsMap/Classes/**/*'
   
   s.dependency 'NMapsMap', '~> 3.14.1'
