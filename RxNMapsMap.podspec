@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   
   s.dependency 'NMapsMap', '~> 3.14.1'
   s.dependency 'RxSwift', '~> 6.5.0'
+  s.dependency 'RxCocoa', '~> 6.5.0'
 end

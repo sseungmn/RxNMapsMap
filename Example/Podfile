@@ -6,10 +6,10 @@ target 'RxNMapsMap_Example' do
   pod 'RxNMapsMap', :path => '../'
   pod 'NMapsMap', '~> 3.14.1'
   pod 'RxSwift', '~> 6.5.0'
+  pod 'RxCocoa', '~> 6.5.0'
 
   target 'RxNMapsMap_Tests' do
     inherit! :search_paths
-
     
   end
 end

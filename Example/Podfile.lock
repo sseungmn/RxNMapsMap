@@ -1,18 +1,27 @@
 PODS:
   - NMapsMap (3.14.1)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
   - RxNMapsMap (0.1.0):
     - NMapsMap (~> 3.14.1)
+    - RxCocoa (~> 6.5.0)
     - RxSwift (~> 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
 
 DEPENDENCIES:
   - NMapsMap (~> 3.14.1)
+  - RxCocoa (~> 6.5.0)
   - RxNMapsMap (from `../`)
   - RxSwift (~> 6.5.0)
 
 SPEC REPOS:
   trunk:
     - NMapsMap
+    - RxCocoa
+    - RxRelay
     - RxSwift
 
 EXTERNAL SOURCES:
@@ -21,9 +30,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   NMapsMap: 79bae4e0d7cc5214dd6dabdb95687a1356616556
-  RxNMapsMap: bbfa33bc9d9feb4f0cb27ee93c808a9fbc2d0ce7
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxNMapsMap: a4cc89ac78dd314d9b1b05857cb8fef43e14abac
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: 0125fd3ebe6115c4d9cd708a28f67b0bd328e9b1
+PODFILE CHECKSUM: 0545661c46615fc201ee4a325fade4ce222d1d26
 
 COCOAPODS: 1.11.2
