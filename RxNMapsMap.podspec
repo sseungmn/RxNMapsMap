@@ -14,4 +14,8 @@ Pod::Spec.new do |s|
   s.dependency 'NMapsMap', '~> 3.14.1'
   s.dependency 'RxSwift', '~> 6.5.0'
   s.dependency 'RxCocoa', '~> 6.5.0'
+  
+  s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
